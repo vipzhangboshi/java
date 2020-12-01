@@ -7,22 +7,23 @@
 - IDEA+Navicat+Jdk1.8
 - SpringBoot+Thymeleaf+Mybatis+SpringSecurity
 - Mysql5.7
-目录
-一、新建一个SpringBoot项目	2
-二、 集成前端框架thymeleaf框架（或freemarker）	6
-2.1 在pom.xml中添加thymeleaf依赖	6
-2.2 添加UserController用于测试Thymeleaf，代码如下：	6
-2.3 在resources/templates添加user.html，代码如下:	6
-2.4 测试Thymeleaf	7
-三、 集成Mybatis-->MybatisPlus(或SpringDataJPA)	7
-3.1 在pom.xml中引入MybatisPlus相关依赖	7
-3.2 配置数据源、MybatisPlus	8
-3.3 编写MybatisPlus配置类	9
-3.4 完成User、UserMapper、UserService、UserMapper	10
-3.5 在UserController中使用UserService	12
-3.6 改造user.html，显示用户列表	12
-3.7 集成效果查看	13
-四、安全框架SpringScerity（或Apache Shiro）	13
+##### 目录
+ 
+> 一、新建一个SpringBoot项目	2
+> 二、 集成前端框架thymeleaf框架（或freemarker）	6
+> 2.1 在pom.xml中添加thymeleaf依赖	6
+> 2.2 添加UserController用于测试Thymeleaf，代码如下：	6
+> 2.3 在resources/templates添加user.html，代码如下:	6
+> 2.4 测试Thymeleaf	7
+> 三、 集成Mybatis-->MybatisPlus(或SpringDataJPA)	7
+> 3.1 在pom.xml中引入MybatisPlus相关依赖	7
+> 3.2 配置数据源、MybatisPlus	8
+> 3.3 编写MybatisPlus配置类	9
+> 3.4 完成User、UserMapper、UserService、UserMapper	10
+> 3.5 在UserController中使用UserService	12
+> 3.6 改造user.html，显示用户列表	12
+> 3.7 集成效果查看	13
+> 四、安全框架SpringScerity（或Apache Shiro）	13
 
 #### 软件架构
 软件架构说明
