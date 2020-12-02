@@ -9,5 +9,5 @@ import com.oyc.demo.domain.User;
  * @Author oyc
  * @Date 2020/12/2 12:24 上午
  */
-public interface UserSerivce extends IService<User> {
+public interface UserService extends IService<User> {
 }

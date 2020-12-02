@@ -1,12 +1,13 @@
 # springboot-web-demo
 
 #### 介绍
-##### springboot-web-demo
 ##### 从零快速搭建一个SpringBoot Web项目
 - 环境：
-- IDEA+Navicat+Jdk1.8
-- SpringBoot+Thymeleaf+Mybatis+SpringSecurity
+- IDEA+Navicat
+- Jdk1.8
 - Mysql5.7
+- SpringBoot+Thymeleaf+Mybatis+SpringSecurity
+
 ##### 目录
 > 一、新建一个SpringBoot项目
 > 
