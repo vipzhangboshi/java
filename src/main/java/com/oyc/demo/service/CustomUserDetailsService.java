@@ -38,6 +38,11 @@ public class CustomUserDetailsService implements UserDetailsService {
         QueryWrapper<com.oyc.demo.domain.User> queryWrapper = new QueryWrapper();
         queryWrapper.eq("account", username);
         com.oyc.demo.domain.User user = userService.getOne(queryWrapper);
+//        com.oyc.demo.domain.User user = new com.oyc.demo.domain.User();
+//        user.setId(1);
+//        user.setName("admin");
+//        user.setAccount("admin");
+//        user.setPassword("admin");
 
         // 判断用户是否存在
         if (user == null) {
